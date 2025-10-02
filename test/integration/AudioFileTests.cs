@@ -16,32 +16,44 @@ namespace Integration {
             dtmfs.ShouldBe(new[] {
                 DtmfChange.Start(PhoneKey.One,   TimeSpan.Parse("00:00:02.7675736"), 0),
                 DtmfChange.Stop(PhoneKey.One,    TimeSpan.Parse("00:00:05.5607029"), 0),
+
                 DtmfChange.Start(PhoneKey.Two,   TimeSpan.Parse("00:00:06.7138321"), 0),
                 DtmfChange.Stop(PhoneKey.Two,    TimeSpan.Parse("00:00:06.8419501"), 0),
+
                 DtmfChange.Start(PhoneKey.Three, TimeSpan.Parse("00:00:07.2775736"), 0),
                 DtmfChange.Stop(PhoneKey.Three,  TimeSpan.Parse("00:00:07.4313378"), 0),
+
                 DtmfChange.Start(PhoneKey.Four,  TimeSpan.Parse("00:00:08.2000680"), 0),
                 DtmfChange.Stop(PhoneKey.Four,   TimeSpan.Parse("00:00:10.5319501"), 0),
+
                 DtmfChange.Start(PhoneKey.Five,  TimeSpan.Parse("00:00:12.0694557"), 0),
                 DtmfChange.Stop(PhoneKey.Five,   TimeSpan.Parse("00:00:12.2488208"), 0),
+
                 DtmfChange.Start(PhoneKey.Six,   TimeSpan.Parse("00:00:12.7100680"), 0),
                 DtmfChange.Stop(PhoneKey.Six,    TimeSpan.Parse("00:00:12.7869614"), 0),
+
                 DtmfChange.Start(PhoneKey.Seven, TimeSpan.Parse("00:00:14.5550793"), 0),
                 //DtmfChange.Stop(PhoneKey.Seven,  TimeSpan.Parse("00:00:14.5294557"), 0),
                 //DtmfChange.Start(PhoneKey.Seven, TimeSpan.Parse("00:00:14.5550793"), 0),
                 DtmfChange.Stop(PhoneKey.Seven,  TimeSpan.Parse("00:00:16.8357142"), 0),
+
                 DtmfChange.Start(PhoneKey.Eight, TimeSpan.Parse("00:00:17.6813378"), 0),
                 DtmfChange.Stop(PhoneKey.Eight,  TimeSpan.Parse("00:00:17.7582086"), 0),
+
                 DtmfChange.Start(PhoneKey.Nine,  TimeSpan.Parse("00:00:18.4244444"), 0),
                 DtmfChange.Stop(PhoneKey.Nine,   TimeSpan.Parse("00:00:18.5013378"), 0),
+
                 DtmfChange.Start(PhoneKey.Hash,  TimeSpan.Parse("00:00:19.0907029"), 0),
                 //DtmfChange.Stop(PhoneKey.Hash,   TimeSpan.Parse("00:00:19.1419501"), 0),
                 //DtmfChange.Start(PhoneKey.Hash,  TimeSpan.Parse("00:00:19.1675736"), 0),
                 DtmfChange.Stop(PhoneKey.Hash,   TimeSpan.Parse("00:00:19.3469614"), 0),
+
                 DtmfChange.Start(PhoneKey.Zero,  TimeSpan.Parse("00:00:19.8338321"), 0),
                 DtmfChange.Stop(PhoneKey.Zero,   TimeSpan.Parse("00:00:19.8594557"), 0),
+
                 DtmfChange.Start(PhoneKey.Star,  TimeSpan.Parse("00:00:20.4488208"), 0),
                 DtmfChange.Stop(PhoneKey.Star,   TimeSpan.Parse("00:00:20.5769614"), 0),
+
                 DtmfChange.Start(PhoneKey.One,   TimeSpan.Parse("00:00:22.0119501"), 0),
                 DtmfChange.Stop(PhoneKey.One,    TimeSpan.Parse("00:00:23.7544444"), 0)
             });

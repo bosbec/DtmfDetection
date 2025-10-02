@@ -4,6 +4,17 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<DocumentationFile>.\obj\DtmfDetection.NAudio.xml</DocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Bosbec</Authors>
+		<Company>Bosbec AB</Company>
+		<Description>Fork of DtmfDetection.NAudio</Description>
+		<PackageProjectUrl>https://github.com/bosbec/DtmfDetection</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/bosbec/DtmfDetection</RepositoryUrl>
+		<Version>1.0.0</Version>
+		<PackageVersion>1.0.0</PackageVersion>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<InformationalVersion>1.0.0</InformationalVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
